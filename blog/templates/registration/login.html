@@ -1,0 +1,35 @@
+{% extends "blog/base.html" %}
+{% load account socialaccount %}
+
+{% block content %}
+
+{% if form.errors %}
+<p>Błędny login lub hasło. Spróbuj jeszcze raz</p>
+{% endif %}
+<p>
+<form method="post" action="{% url 'login' %}">
+  {% csrf_token %}
+  <table>
+    <tr>
+      <td>{{ form.username.label_tag }}</td>
+      <td>{{ form.username }}</td>
+    </tr>
+    <br>
+    <tr>
+      <td>{{ form.password.label_tag }}</td>
+      <td>{{ form.password }}</td>
+    </tr>
+  </table>
+  <input style="margin-left: 10px;" type="submit" value="login" />
+  <input style="text-align: center" type="hidden" name="next" value="{{ next }}" />
+  <ul class="socialaccount_providers">
+    <li>
+      <a title="Google" class="socialaccount_provider google " href="/accounts/google/login/?process=login"></span>Google</a>
+    </li>
+    <li>
+      <a title="Discord" class="socialaccount_provider discord " href="/accounts/discord/login/?process=login"></span>Discord</a>
+    </li>
+  </ul>
+</form>
+</p>
+{% endblock %}
