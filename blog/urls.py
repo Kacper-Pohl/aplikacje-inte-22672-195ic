@@ -10,7 +10,7 @@ urlpatterns = [
     path('post/new', views.post_new, name='post_new'),
     path('post/<int:pk>/edit/', views.post_edit, name='post_edit'),
     path('post/<pk>/remove/', views.post_remove, name='post_remove'),
-url(r'^activate/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$',
+    url(r'^activate/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$',
             views.activate, name='activate'),
     path('', views.base, name='base'),
     url(r'^$', views.base, name='home'),

@@ -11,8 +11,17 @@
 <div class="page-header">
     {% if user.is_authenticated %}
         <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        <p class="top-menu">Witaj {{ user.username }} <small>(<a href="{% url 'logout' %}" class="loguout">Wyloguj
+            się</a>)</small></p>
     {% endif %}
     <h1><a href="/">Kacper Blog</a></h1>
+    {% if user.is_authenticated %}
+        <p class="text-end"><a href="{% url 'change_password' %}">Zmień hasło</a></p>
+    {% else %}
+        <p class="text-start"><a href="{% url 'login' %}">Zaloguj się</a></p>
+        <p class="text-start"><a href="{% url 'signup' %}">Zarejestruj się</a></p>
+        <p class="text-start"><a href="{% url 'reset_password' %}">Zresetuj hasło</a></p>
+    {% endif %}
 </div>
 <div class="content container">
     <div class="row">
