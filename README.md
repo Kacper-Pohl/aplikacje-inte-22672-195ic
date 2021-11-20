@@ -9,7 +9,7 @@ Link do mojego bloga na [pythonanywhere.com](https://www.pythonanywhere.com) - [
 #### Strona startowa
 
 Po wejściu na stronę, można zauważyć tytuł strony, oraz dodane posty. 
-W prawym górnym rogu widnieje plus, który przenosi nas do dodania nowego postu.
+W prawym górnym rogu widnieje plus, który przenosi nas do dodania nowego postu
 
 ![](assets/strona_start.png)
 
