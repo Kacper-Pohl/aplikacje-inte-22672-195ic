@@ -14,8 +14,12 @@
     margin-left: 40px;
 }
 
-h1 {
+h1{
     font-family: 'GreatLakesNF', sans-serif;
+}
+
+h2{
+    font-family: 'Impact', fantasy;
 }
 
 .date {
