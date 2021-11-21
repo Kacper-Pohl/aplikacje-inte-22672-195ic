@@ -8,7 +8,7 @@
 
 Blog stworzony na podstawie poradnika [Django Girls](https://tutorial.djangogirls.org/pl/)
 
-Link do mojego bloga na [pythonanywhere.com](https://www.pythonanywhere.com) - [here :fire:](http://chxpiii.pythonanywhere.com)
+Link do mojego bloga na [heroku.com](https://heroku.com) - [here :fire:](https://apki-22672.herokuapp.com)
 
 #### Strona startowa
 
