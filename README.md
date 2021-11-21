@@ -48,10 +48,11 @@ Na początek rejestracja konta jak i potwierdzenie na mailu.
 
 ![](assets/rejestracja3.png)
 
-
 ![](assets/rejestracja4.png)
 
+
 Logowanie na konto użytkownika
+
 ![](assets/login1.png)
 ![](assets/login2.png)
 
