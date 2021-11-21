@@ -44,7 +44,11 @@ Dodałem do strony możliwość rejestracji konta, logowania i resetu hasła.
 Na początek rejestracja konta jak i potwierdzenie na mailu.
 ![](assets/rejestracja1.png)
 ![](assets/rejestracja2.png)
+
+
 ![](assets/rejestracja3.png)
+
+
 ![](assets/rejestracja4.png)
 
 Logowanie na konto użytkownika
