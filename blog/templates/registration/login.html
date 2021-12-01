@@ -1,4 +1,5 @@
 {% extends "blog/base.html" %}
+{% load account socialaccount %}
 
 {% block content %}
 
@@ -21,6 +22,14 @@
       </table>
       <input style="margin-top: 5px; margin-left: 250px;" type="submit" value="Loguj" />
       <input style="text-align: center" type="hidden" name="next" value="{{ next }}" />
+    <ul class="socialaccount_providers">
+    <li>
+      <a title="Google" class="socialaccount_provider google " href="/accounts/google/login/?process=login"></span>Google</a>
+    </li>
+    <li>
+      <a title="Discord" class="socialaccount_provider discord " href="/accounts/discord/login/?process=login"></span>Discord</a>
+    </li>
+  </ul>
     </form>
   </p>
 {% endblock %}
