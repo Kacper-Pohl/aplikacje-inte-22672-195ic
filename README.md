@@ -2,6 +2,7 @@
 
 <p><a href="#Lab1">Lab 1</a></p>
 <p><a href="#Lab2">Lab 2</a></p>
+<p><a href="#Lab3">Lab 3</a></p>
 
 <a id="Lab1"></a>
 ### Lab nr.1 - Blog
@@ -60,3 +61,11 @@ Reset hasła
 ![](assets/haslo1.png)
 ![](assets/haslo2.png)
 
+
+<a id="Lab3"></a>
+### Lab nr.3
+
+Dodanie opcji uweirzytelniania za pomocą konta google, lub discord.
+![](assets/auth1.png)
+![](assets/auth2.png)
+![](assets/auth3.png)
