@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+<form method="POST" class="w-50">
+    {% csrf_token %}
+    <div class="form-group">
+        <label>Podaj url</label>
+        <input type="text" name="web_link" class="form-control" required placeholder="Url">
+    </div>
+    <div class="form-group">
+        <label >Podaj szukany element</label>
+        <input type="text" class="form-control" name="element" required placeholder="Element">
+    </div>
+    <button type="submit" class="btn btn-light">Wyszukaj</button>
+</form>
+
+<ul class="list-group">
+    <li>Strona przeszukiwana : <a href = "{{web_link}}">{{web_link}}</a></li>
+    <li>Element poszukiwany: <span>{{element}}</span></li>
+    <li>Liczba znalezionych elemntów: {{amount}}</li>
+</ul>
+
+<table>
+    {% for elements in allElements %}
+        <h2>Elementy :</h2>
+            <p>Klasa = {{elements.findClass}} </p>
+            <p>Alt = {{elements.find_alt}} </p>
+            <p>ID = {{elements.findId}} </p>
+            <p>Span = {{elements.findSpan}} </p>
+            <p>text = {{elements.getText}} </p>
+            {% if elements.findHref == 'Brak' %}
+            <p>Href = {{elements.findHref}} </p>
+            {% else %}
+            <a href="{{elements.findHref}}"></a><a>Href = {{elements.findHref}}</a>
+            {% endif %}
+            </tr>
+            {% endfor %}
+</table>
+{% endblock %}
