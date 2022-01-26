@@ -1,4 +1,10 @@
-### Lab 4 - REST API, DRF
+
+<p><a href="#Lab4">Lab 4</a></p>
+<p><a href="#Lab6">Lab 6</a></p>
+
+
+<a id="Lab4"></a>
+# Lab 4 - REST API, DRF
 
 
 Post list niezalogowany, informacja o braku autoryzacji
@@ -25,7 +31,8 @@ Swagger
 
 ![](screenshots/swagger.png)
 
-# Lab 6
+<a id="Lab6"></a>
+# Lab 6 - Zezwolenia i uwierzytelnianie w DRF
 
 Login
 ![](screenshots/lab6_1.png)
