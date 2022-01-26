@@ -24,3 +24,31 @@ Filtry
 Swagger
 
 ![](screenshots/swagger.png)
+
+# Lab 6
+
+Login
+![](screenshots/lab6_1.png)
+![](screenshots/lab6_2.png)
+
+Logout
+![](screenshots/lab6_3.png)
+![](screenshots/lab6_4.png)
+
+Password reset
+![](screenshots/lab6_5.png)
+![](screenshots/lab6_6.png)
+
+Register
+![](screenshots/lab6_7.png)
+![](screenshots/lab6_8.png)
+
+Tokeny w panelu admina
+![](screenshots/lab6_9.png)
+
+User list
+![](screenshots/lab6_10.png)
+
+
+
+

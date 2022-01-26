@@ -10,3 +10,15 @@ class IsAuthorOrReadOnly(permissions.BasePermission):
 
         # Write permissions are only allowed to the author of a post
         return obj.author == request.user
+
+
+class IsAssigned(permissions.BasePermission):
+
+    def has_object_permission(self, request, view, obj):
+        # check if user who launched request is object owner
+        if obj.assigned_to == request.user:
+            return True
+        else:
+            return False
+
+
