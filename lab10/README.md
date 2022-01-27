@@ -1,6 +1,6 @@
-#Lab nr. 10 - Django + React (aplikacja ToDo)
+# Lab nr. 10 - Django + React (aplikacja ToDo)
 
-###backend
+### backend
 
 Todo list i dodanie do listy
 ![](screens/1.png)
@@ -10,7 +10,7 @@ Todo list i dodanie do listy
 Admin panel i lista
 ![](screens/7.png)
 
-###frontend
+### frontend
 
 Lista
 ![](screens/4.png)
