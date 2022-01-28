@@ -153,10 +153,6 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 2
 
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'duhastonpl@gmail.com'
-EMAIL_HOST_PASSWORD = 'lrodkdluatkpmdzd'
-EMAIL_PORT = 587
+
 
 django_heroku.settings(locals())
